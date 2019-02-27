@@ -28,3 +28,25 @@ yarn or npm install<br/>
 npm run dev<br/>
 php artisan migrate --seed<br/>
 php artisan config:cache<br/>
+
+# Screenshots
+### Login
+[Login page] (https://github.com/alextoshinov/atom/blob/master/docs/atom_login.png)
+
+### Register
+[register page] (https://github.com/alextoshinov/atom/blob/master/docs/atom_register.png)
+
+### Profile
+[profile page] (https://github.com/alextoshinov/atom/blob/master/docs/atom_profile.png)
+
+### Add book
+[Add book] (https://github.com/alextoshinov/atom/blob/master/docs/atom_add_book.png)
+
+### Edit book
+[Edit book] (https://github.com/alextoshinov/atom/blob/master/docs/atom_edit_book.png)
+
+### List books
+[List books] (https://github.com/alextoshinov/atom/blob/master/docs/atom_books_list.png)
+
+### Book details
+[book details] (https://github.com/alextoshinov/atom/blob/master/docs/atom_book_details.png)
