@@ -1,9 +1,9 @@
-football
+My Library
 ========
 
-My Library
 
-demo
+
+Demo
 ====
 
 Demo URL: http://78.128.71.92
@@ -18,4 +18,6 @@ cd atom/
 chmod -R 777 bootstrap/cache storage/ public/images
 composer install
 yarn or npm install
+npm run dev
+php artisan migrate --seed
 php artisan config:cache
