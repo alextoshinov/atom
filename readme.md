@@ -6,25 +6,25 @@ username: admin
 password: secret
 
 # Requirements
-PHP >= 5.6
-OpenSSL PHP Extension
-PDO PHP Extension
-Mbstring PHP Extension
-Tokenizer PHP Extension
+PHP >= 5.6<br/>
+OpenSSL PHP Extension<br/>
+PDO PHP Extension<br/>
+Mbstring PHP Extension<br/>
+Tokenizer PHP Extension<br/>
 
 Instalation
 ===========
-1. Clone this repository in your web folder
-git clone https://github.com/alextoshinov/atom
-2. Go to atom folder and edit .env file : 
-DB_DATABASE=atom
-DB_USERNAME=root
-DB_PASSWORD=alex
+1. Clone this repository in your web folder<br/>
+git clone https://github.com/alextoshinov/atom<br/>
+2. Go to atom folder and edit .env file : <br/>
+DB_DATABASE=atom<br/>
+DB_USERNAME=root<br/>
+DB_PASSWORD=alex<br/>
 
-cd atom/
-chmod -R 777 bootstrap/cache storage/ public/images
-composer install
-yarn or npm install
-npm run dev
-php artisan migrate --seed
-php artisan config:cache
+cd atom/<br/>
+chmod -R 777 bootstrap/cache storage/ public/images<br/>
+composer install<br/>
+yarn or npm install<br/>
+npm run dev<br/>
+php artisan migrate --seed<br/>
+php artisan config:cache<br/>
